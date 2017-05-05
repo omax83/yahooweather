@@ -90,8 +90,8 @@ def makeWebhookResult(data):
     print(speech)
 
     return {
-        "speech": speech,
-        "displayText": speech,
+        "speech": speech.decode('utf-8'),
+        "displayText": speech.decode('utf-8'),
         # "data": data,
         # "contextOut": [],
         "source": "apiai-weather-webhook-sample"
