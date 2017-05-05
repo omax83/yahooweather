@@ -133,7 +133,7 @@ iConditionsRus = ['торнадо',\
 'местами грозы']
 #    speech = "Сегодня в " + location.get('city') + ": " + condition.get('text') + \
 #             ", температура " + condition.get('temp') + " " + units.get('temperature')
-    speech = "Сегодня в " + location.get('city') + ": " + condition.get('code') + ", температура " + condition.get('temp') + " " + units.get('temperature')
+    speech = "Сегодня в " + location.get('city') + ": " + condition.get('text') + ", температура " + condition.get('temp') + " " + units.get('temperature')
 
     print("Response:")
     print(speech)
