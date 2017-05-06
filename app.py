@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-16 -*-
+# -*- coding: utf-8 -*-
 from __future__ import print_function
 from future.standard_library import install_aliases
 install_aliases()
@@ -85,7 +85,7 @@ def makeWebhookResult(data):
     # print(json.dumps(item, indent=4))
     iConditionsRus = ['торнадо','тропический шторм ','ураган','сильные грозы','грозы','смешанный дождь и снег','смешанные дождь и мокрый снег','переменная облачность','переменная облачность','морось','ледяной дождь''метель','метель','легкая метель','переменная облачность','поземка','снег','град','гололедица','пыль','туманно','дымка','смог','порывистый ветер','ветрено','холодно','облачно','переменная облачность','переменная облачность','переменная облачность','переменная облачность','ясно','солнечно','ясно','ясно','смешанные дождь и град ','жара','местами грозы''возможна гроза','возможна гроза','местами дождии','сильный снег','дождь со снегом','сильный снег','облачно с прояснениями''гроза','снег с дождем','местами грозы']
 #    speech = "Сегодня в " + location.get('city') + ": " + condition.get('text') + ", температура " + condition.get('temp') + " " + units.get('temperature')
-    speech = "hhgjghjhgjghj " + location.get('city') + ": " + condition.get('text') + ", the temperature is " + condition.get('temp') + " " + units.get('temperature')
+    speech = u"апрапрапр " + location.get('city') + ": " + condition.get('text') + ", the temperature is " + condition.get('temp') + " " + units.get('temperature')
 #    print("Response:")
 #    print(speech)
 
